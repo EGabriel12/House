@@ -8,6 +8,10 @@
 
 #import "House.h"
 
+@interface House()
+    @property (nonatomic, readwrite) int numberOfBedroms; // Dessa maneira, só podemos ler e escrever de dentro da classe
+@end
+
 @implementation House
 
 @end

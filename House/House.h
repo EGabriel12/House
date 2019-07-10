@@ -11,8 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface House : NSObject
-    @property (nonatomic) NSString *adress; // Modelo de declaração
-    @property (nonatomic) int numberOfBedrooms;
+    @property (nonatomic, copy) NSString *adress; // Modelo de declaração // copy: não deixa a propriedade vulnerável a alterações não intencionais
+    @property (nonatomic, readonly) int numberOfBedrooms; // (atomic é default)
     @property (nonatomic) BOOL hasHotTub;
     
 @end

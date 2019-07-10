@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "House.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        House *myHouse = [[House alloc] init];
+//        int number = myHouse.numberOfBedrooms;
+//
+//        NSLog(@"%d", number);
+        NSMutableString *adressString = [[NSMutableString alloc] initWithString:@"555 Park Ave."];
+        
+        House *myHouse = [[House alloc] init];
+        myHouse.adress = adressString;
+        
+        [adressString appendString: @"La la land"];
+        NSLog(@"%@", myHouse.adress);
     }
     return 0;
 }
