@@ -16,13 +16,18 @@ int main(int argc, const char * argv[]) {
 //        int number = myHouse.numberOfBedrooms;
 //
 //        NSLog(@"%d", number);
-        NSMutableString *adressString = [[NSMutableString alloc] initWithString:@"555 Park Ave."];
+        
+        
+//        NSMutableString *adressString = [[NSMutableString alloc] initWithString:@"555 Park Ave."];
+//
+//        House *myHouse = [[House alloc] init];
+//        myHouse.adress = adressString;
+//
+//        [adressString appendString: @"La la land"];
+//        NSLog(@"%@", myHouse.adress);
         
         House *myHouse = [[House alloc] init];
-        myHouse.adress = adressString;
-        
-        [adressString appendString: @"La la land"];
-        NSLog(@"%@", myHouse.adress);
+        NSLog(@"%@", myHouse);
     }
     return 0;
 }
