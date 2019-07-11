@@ -14,16 +14,16 @@
 
 @implementation House
     
-    -(instancetype) initWithAdress:(NSString*) adress { // Dessa maneira, personalizaos o método init
+    -(instancetype) initWithAdress:(NSString*)adress { // Dessa maneira, personalizaos o método init
         self = [super init]; // Todo método init começa chamando o init de sua superclasse
         
         if(self) {
             // Usa-se o '_Propertie' para acessá-las diretamente
             _adress = [adress copy]; // Como a propriedade está marcada como copy, podemos apenas passar uma cópia do valor de parâmetro
-            _numberOfBedrooms = 2;
+            _numberOfBedrooms = 3;
             _hasHotTub = false;
         }
-        return self;
+        return self; // Self é um objeto dessa classe
     }
 
 @end

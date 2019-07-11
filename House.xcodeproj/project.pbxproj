@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		88C05A8D22D63AC5001A4B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C05A8C22D63AC5001A4B6A /* main.m */; };
 		88C05A9522D63DE5001A4B6A /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C05A9422D63DE5001A4B6A /* House.m */; };
+		88C05A9822D6E3D4001A4B6A /* Bedroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C05A9722D6E3D4001A4B6A /* Bedroom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		88C05A8C22D63AC5001A4B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88C05A9322D63DE5001A4B6A /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		88C05A9422D63DE5001A4B6A /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		88C05A9622D6E3D4001A4B6A /* Bedroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedroom.h; sourceTree = "<group>"; };
+		88C05A9722D6E3D4001A4B6A /* Bedroom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedroom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				88C05A8C22D63AC5001A4B6A /* main.m */,
 				88C05A9322D63DE5001A4B6A /* House.h */,
 				88C05A9422D63DE5001A4B6A /* House.m */,
+				88C05A9622D6E3D4001A4B6A /* Bedroom.h */,
+				88C05A9722D6E3D4001A4B6A /* Bedroom.m */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C05A9522D63DE5001A4B6A /* House.m in Sources */,
+				88C05A9822D6E3D4001A4B6A /* Bedroom.m in Sources */,
 				88C05A8D22D63AC5001A4B6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
